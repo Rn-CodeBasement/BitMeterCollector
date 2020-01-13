@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubModules", "SubModules", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Common", "submodules\NetCore.Common\src\NetCore.Common\NetCore.Common.csproj", "{3A8BE23E-1DBA-497E-9D52-02C3DF2BD7A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Metrics.Core", "submodules\NetCore.Metrics.Core\src\NetCore.Metrics.Core\NetCore.Metrics.Core.csproj", "{00AD2A06-4A94-4092-92E5-564498416068}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,17 +23,12 @@ Global
 		{3A8BE23E-1DBA-497E-9D52-02C3DF2BD7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A8BE23E-1DBA-497E-9D52-02C3DF2BD7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A8BE23E-1DBA-497E-9D52-02C3DF2BD7A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{00AD2A06-4A94-4092-92E5-564498416068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00AD2A06-4A94-4092-92E5-564498416068}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00AD2A06-4A94-4092-92E5-564498416068}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00AD2A06-4A94-4092-92E5-564498416068}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3A8BE23E-1DBA-497E-9D52-02C3DF2BD7A1} = {BF1C797B-638B-48A1-A094-38A052C47E30}
-		{00AD2A06-4A94-4092-92E5-564498416068} = {BF1C797B-638B-48A1-A094-38A052C47E30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE468379-9C4D-4BD9-AC2C-EC38860D1758}

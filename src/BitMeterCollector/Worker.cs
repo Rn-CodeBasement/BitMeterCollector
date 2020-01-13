@@ -2,7 +2,6 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using CodeBasement.NetCore.Common;
-using CodeBasement.NetCore.Metrics.Core;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
@@ -21,7 +20,6 @@ namespace CodeBasement.BitMeterCollector
     {
       // Testing submodules
       Hello.Speak();
-      World.Speak();
 
       while (!stoppingToken.IsCancellationRequested)
       {
