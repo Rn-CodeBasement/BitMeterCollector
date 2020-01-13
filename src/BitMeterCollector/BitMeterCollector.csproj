@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-BitMeterCollector-4277DF5A-9135-411B-952A-14DF9988E486</UserSecretsId>
+    <AssemblyName>CodeBasement.BitMeterCollector</AssemblyName>
+    <RootNamespace>CodeBasement.BitMeterCollector</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.0" />
+  </ItemGroup>
+</Project>
