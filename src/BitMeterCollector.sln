@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubModules", "SubModules", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Common", "submodules\NetCore.Common\src\NetCore.Common\NetCore.Common.csproj", "{3A8BE23E-1DBA-497E-9D52-02C3DF2BD7A1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Metrics.Core", "submodules\NetCore.Metrics\src\NetCore.Metrics.Core\NetCore.Metrics.Core.csproj", "{9CAB313D-1C64-4E3A-95D9-3B9B4DE3EA29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Metrics.RabbitMQOutput", "submodules\NetCore.Metrics\src\NetCore.Metrics.RabbitMQOutput\NetCore.Metrics.RabbitMQOutput.csproj", "{9D829B50-3750-4D85-B3C6-48C93106393A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,22 @@ Global
 		{3A8BE23E-1DBA-497E-9D52-02C3DF2BD7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A8BE23E-1DBA-497E-9D52-02C3DF2BD7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A8BE23E-1DBA-497E-9D52-02C3DF2BD7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAB313D-1C64-4E3A-95D9-3B9B4DE3EA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAB313D-1C64-4E3A-95D9-3B9B4DE3EA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAB313D-1C64-4E3A-95D9-3B9B4DE3EA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAB313D-1C64-4E3A-95D9-3B9B4DE3EA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D829B50-3750-4D85-B3C6-48C93106393A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D829B50-3750-4D85-B3C6-48C93106393A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D829B50-3750-4D85-B3C6-48C93106393A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D829B50-3750-4D85-B3C6-48C93106393A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3A8BE23E-1DBA-497E-9D52-02C3DF2BD7A1} = {BF1C797B-638B-48A1-A094-38A052C47E30}
+		{9CAB313D-1C64-4E3A-95D9-3B9B4DE3EA29} = {BF1C797B-638B-48A1-A094-38A052C47E30}
+		{9D829B50-3750-4D85-B3C6-48C93106393A} = {BF1C797B-638B-48A1-A094-38A052C47E30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE468379-9C4D-4BD9-AC2C-EC38860D1758}

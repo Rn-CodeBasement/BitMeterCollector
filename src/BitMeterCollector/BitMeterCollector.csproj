@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\submodules\NetCore.Common\src\NetCore.Common\NetCore.Common.csproj" />
-    <ProjectReference Include="..\submodules\NetCore.Metrics.Core\src\NetCore.Metrics.Core\NetCore.Metrics.Core.csproj" />
+    <ProjectReference Include="..\submodules\NetCore.Metrics\src\NetCore.Metrics.Core\NetCore.Metrics.Core.csproj" />
+    <ProjectReference Include="..\submodules\NetCore.Metrics\src\NetCore.Metrics.RabbitMQOutput\NetCore.Metrics.RabbitMQOutput.csproj" />
   </ItemGroup>
 </Project>
