@@ -1,3 +1,6 @@
 [submodule "src/submodules/NetCore.Metrics.Core"]
 	path = src/submodules/NetCore.Metrics.Core
 	url = https://github.com/Rn-CodeBasement/CodeBasement.NetCore.Metrics.Core.git
+[submodule "src/submodules/NetCore.Common"]
+	path = src/submodules/NetCore.Common
+	url = https://github.com/Rn-CodeBasement/CodeBasement.NetCore.Common.git
